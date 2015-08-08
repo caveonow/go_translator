@@ -29,7 +29,7 @@ require 'go_translate'
 Example of using GoTranslate:
 
 ```ruby
-GoTranslate.translate('Hello World', from: 'en', to: 'ja') # => "こんにちは"
+GoTranslate.translate('hello', from: 'en', to: 'ja') # => "こんにちは"
 ```
 
 Please refer [list of supported languages](https://cloud.google.com/translate/v2/using_rest#language-params) for more options.
@@ -42,7 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/go_translator/fork )
+1. Fork it ( https://github.com/hoangphanbk10/go_translator/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
