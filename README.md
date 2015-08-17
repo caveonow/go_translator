@@ -32,6 +32,22 @@ Example of using GoTranslate:
 GoTranslate.translate('hello', from: 'en', to: 'ja') # => "こんにちは"
 ```
 
+Example of translating from detect language to another language
+
+```ruby
+GoTranslate.translate('hello', to: 'ja') # => "こんにちは"
+```
+
+## List of options
+
+`:from` : Source language. Default: `:auto`
+
+`:to` : Target language. Default: `:en`
+
+`:in_encoding` : Source encoding. Default `'UTF-8'`
+
+`:out_encoding` : Target encoding. Default `'UTF-8'`
+
 Please refer [list of supported languages](https://cloud.google.com/translate/v2/using_rest#language-params) for more options.
 
 ## Development
