@@ -1,4 +1,6 @@
 # GoTranslator
+<img src="https://travis-ci.org/huyha85/kiwi.svg" alt="Build Status" />
+=================
 
 A simple and free google translator wrapper to translate from a language to another.
 
