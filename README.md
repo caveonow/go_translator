@@ -1,4 +1,4 @@
-# GoTranslator <img src="https://travis-ci.org/hoangphanea/go_translator.svg" alt="Build Status" />
+# GoTranslator [<img src="https://travis-ci.org/hoangphanea/go_translator.svg" alt="Build Status" />](https://travis-ci.org/hoangphanea/go_translator)
 
 A simple and free google translator wrapper to translate from a language to another.
 
